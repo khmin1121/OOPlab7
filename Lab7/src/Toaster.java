@@ -8,7 +8,7 @@ public class Toaster extends Product implements Cooker {
 
 	@Override
 	public String getName() {
-		return null;
+		return "I am tosater";
 	}
 
 	
