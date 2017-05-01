@@ -1,5 +1,5 @@
 
-public class Laptop extends Product implements Networked {
+public class Laptop extends Product implements Networked,DataStorage {
 	
 	private double totalCapacity;
 	private double usedCapacity;
