@@ -13,4 +13,12 @@ public class ProductTest {
 		System.out.println("DataStorage");
 	}
 	
+	public void testNetworked(Networked n){
+		System.out.println("Networked");
+	}
+	
+	public void testCooker(Cooker c){
+		System.out.println("Cooker");
+	}
+	
 }
