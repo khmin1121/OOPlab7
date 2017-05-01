@@ -4,14 +4,15 @@ public class Laptop extends Product implements Networked,DataStorage {
 	private double totalCapacity;
 	private double usedCapacity;
 	
+	@Override	
 	public double getFreeCapacity(){
 		return 4.5;
 	}
+	@Override
 	public void format(){
 		System.out.println("This is format");
 	}
-	@Override
-	
+	@Override	
 	public boolean isConnected(){
 		return true;
 	}
