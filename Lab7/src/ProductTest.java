@@ -2,8 +2,15 @@
 public class ProductTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 	}
-
+	
+	public void testProduct(Product p){
+		System.out.println("testProduct");
+	}
+	public void testDataStorage(DataStorage d){
+		System.out.println("DataStorage");
+	}
+	
 }
