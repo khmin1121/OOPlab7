@@ -1,5 +1,5 @@
 
-public class Laptop extends Product {
+public class Laptop extends Product implements Networked {
 
 	@Override
 	public String getName() {
